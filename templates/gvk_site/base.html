@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <!-- Заголовок -->
+    <div class="header">
+        <img src="https://github.com/Evgeniy-Tsittser/dp_files/blob/main/emblem.jpeg?raw=true" alt="Эмблема" class="logo">
+        <h1 class="page-title">{% block page_title %}{% endblock %}</h1>
+    </div>
+
+    <!-- Левая панель -->
+    <aside class="left-panel">
+        <ul class="links">
+            <li><a href="http://127.0.0.1:8000">Главная</a></li>
+            <li><a href="http://127.0.0.1:8000/about">О предприятии</a></li>
+            <li><a href="http://127.0.0.1:8000/tariffs">Тарифы</a></li>
+            <li><a href="http://127.0.0.1:8000/contacts">Контакты</a></li>
+            <li><a href="http://127.0.0.1:8000/quality">Качество воды</a></li>
+        </ul>
+    </aside>
+
+    <!-- Правая панель -->
+    <aside class="right-panel">
+        <a href="http://127.0.0.1:8000/login" style="margin-top: 5px; padding-left: 10px;">АВТОРИЗАЦИЯ</a>
+        <p style="font-size: 14px; margin-top: 10px; padding-left: 10px;">Для регистрации нужно обратиться в офис ООО «Горводоканал»</p>
+    </aside>
+
+    <!-- Основная часть контента -->
+    <main class="content">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <p>ООО «ГОРВОДОКАНАЛ»</p>
+        <p>633525, Новосибирская область, г.Черепаново, ул.Строителей д.1а, тел.(38345)25-028, (38345)25-027.</p>
+    </footer>
+</body>
+</html>

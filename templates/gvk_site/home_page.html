@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО «ГОРВОДОКАНАЛ» г.Черепаново</title>
+    <style>
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            overflow-y: hidden;
+        }
+
+        /* Заголовочная часть */
+        .header {
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            color: grey;
+        }
+
+        .logo {
+            width: auto;
+            max-height: 220%;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-right: 380px;
+            font-size: 24px;
+            line-height: 10px;
+        }
+
+        /* Боковые панели */
+        .left-panel, .right-panel {
+            position: fixed;
+            top: 70px;
+            bottom: 80px;
+            width: 140px;
+            background-color: lightsteelblue;
+        }
+
+        .left-panel {
+            left: 0;
+        }
+
+        .right-panel {
+            right: 0;
+        }
+
+        /* Центральная часть */
+        .content {
+            margin: 0px 140px 20px 140px;
+            min-height: calc(100vh - 0px);
+        }
+
+        /* Футер */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background-color: lightsteelblue;
+            text-align: center;
+            color: black;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .footer p {
+            margin-top: 15px;
+        }
+
+        /* Ссылки в левом боковом меню */
+        .links {
+            list-style-type: none;
+            padding: 5px;
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 10px;
+            padding: 5px
+        }
+
+        /* Слайдер */
+        .slider {
+            overflow: hidden;
+            width: 100%;
+            height: 430px;
+            position: relative;
+        }
+
+        .slide {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Заголовок -->
+    <div class="header">
+        <img src="https://github.com/Evgeniy-Tsittser/dp_files/blob/main/emblem.jpeg?raw=true" alt="Эмблема" class="logo">
+        <h1 class="page-title">ООО «ГОРВОДОКАНАЛ» г.Черепаново</h1>
+    </div>
+
+    <!-- Левая панель -->
+    <aside class="left-panel">
+        <ul class="links">
+            <li><a href="#">Главная</a></li>
+            <li><a href="http://127.0.0.1:8000/about">О предприятии</a></li>
+            <li><a href="http://127.0.0.1:8000/tariffs">Тарифы</a></li>
+            <li><a href="http://127.0.0.1:8000/contacts">Контакты</a></li>
+            <li><a href="http://127.0.0.1:8000/quality">Качество воды</a></li>
+        </ul>
+    </aside>
+
+    <!-- Правая панель -->
+    <aside class="right-panel">
+        <a href="#" style="margin-top: 100px; padding-left: 10px;">АВТОРИЗАЦИЯ</a>
+        <p style="font-size: 14px; margin-top: 10px; padding-left: 10px;">Для регистрации нужно обратиться в офис ООО «Горводоканал»</p>
+    </aside>
+
+    <!-- Основная часть контента -->
+    <main class="content">
+        <div class="slider">
+            <div class="slide active">
+                <img src="https://special.govvrn.ru/documents/34650/0/2019_09_20_t_067.jpg/0ebf25eb-c730-fb5b-93b9-490d6c568b97" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="https://avatars.dzeninfra.ru/get-zen_doc/9624526/pub_6426ac1cc583f65e1b12e225_6426ac504569985761b6bcd0/scale_1200" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="https://avatars.mds.yandex.net/get-ydo/472106/2a0000018267bc46b492c3ffa7578151fd76/diploma" alt="Slide 3">
+            </div>
+            <div class="slide">
+                <img src="https://dpru.obs.ru-moscow-1.hc.sbercloud.ru/images/article/2017/06/09/2401f178-a570-45fd-8fc6-4b21b08f6fbf.jpg" alt="Slide 4">
+            </div>
+            <div class="slide">
+                <img src="https://avatars.dzeninfra.ru/get-zen_doc/1712971/pub_619f9f76aa8e2371c9e2d7e9_619fa9bee05dbe41e8619336/scale_1200" alt="Slide 5">
+            </div>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <p>ООО «ГОРВОДОКАНАЛ»</p>
+        <p>633525, Новосибирская область, г.Черепаново, ул.Строителей д.1а, тел.(38345)25-028, (38345)25-027.</p>
+    </footer>
+
+    <!-- Скрипт для работы слайдера -->
+    <script>
+        let index = 0;
+        const slides = document.querySelectorAll('.slide');
+        setInterval(() => {
+            slides[index].classList.remove('active');
+            index = (index + 1) % slides.length;
+            slides[index].classList.add('active');
+        }, 5000); // Изменение слайда каждые 5 секунд
+    </script>
+</body>
+</html>

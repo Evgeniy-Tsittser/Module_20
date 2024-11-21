@@ -1,0 +1,34 @@
+{% extends "gvk_site/base.html" %}
+
+{% block title %}Главная ООО «ГОРВОДОКАНАЛ» г.Черепаново{% endblock %}
+
+{% block page_title %}ООО «ГОРВОДОКАНАЛ» г.Черепаново{% endblock %}
+
+{% block content %}
+<div class="slider">
+    <div class="slide active">
+        <img src="https://special.govvrn.ru/documents/34650/0/2019_09_20_t_067.jpg/0ebf25eb-c730-fb5b-93b9-490d6c568b97" alt="Slide 1">
+    </div>
+    <div class="slide">
+        <img src="https://avatars.dzeninfra.ru/get-zen_doc/9624526/pub_6426ac1cc583f65e1b12e225_6426ac504569985761b6bcd0/scale_1200" alt="Slide 2">
+    </div>
+    <div class="slide">
+        <img src="https://avatars.mds.yandex.net/get-ydo/472106/2a0000018267bc46b492c3ffa7578151fd76/diploma" alt="Slide 3">
+    </div>
+    <div class="slide">
+        <img src="https://dpru.obs.ru-moscow-1.hc.sbercloud.ru/images/article/2017/06/09/2401f178-a570-45fd-8fc6-4b21b08f6fbf.jpg" alt="Slide 4">
+    </div>
+    <div class="slide">
+        <img src="https://avatars.dzeninfra.ru/get-zen_doc/1712971/pub_619f9f76aa8e2371c9e2d7e9_619fa9bee05dbe41e8619336/scale_1200" alt="Slide 5">
+    </div>
+</div>
+<script>
+    let index = 0;
+    const slides = document.querySelectorAll('.slide');
+    setInterval(() => {
+    slides[index].classList.remove('active');
+    index = (index + 1) % slides.length;
+    slides[index].classList.add('active');
+   }, 5000); // Изменение слайда каждые 5 секунд
+</script>
+{% endblock %}

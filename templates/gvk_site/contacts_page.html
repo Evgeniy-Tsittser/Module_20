@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО «ГОРВОДОКАНАЛ» г.Черепаново</title>
+    <style>
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            overflow-y: hidden;
+        }
+
+        /* Заголовочная часть */
+        .header {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            color: blue;
+        }
+
+        .logo {
+            width: auto;
+            max-height: 220%;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-right: 380px;
+            font-size: 24px;
+            line-height: 10px;
+        }
+
+        /* Боковые панели */
+        .left-panel, .right-panel {
+            position: fixed;
+            top: 70px;
+            bottom: 80px;
+            width: 140px;
+            background-color: lightsteelblue;
+        }
+
+        .left-panel {
+            left: 0;
+        }
+
+        .right-panel {
+            right: 0;
+        }
+
+        /* Центральная часть */
+        .content {
+            margin: 0px 140px 20px 140px;
+            min-height: calc(100vh - 0px);
+            display: flex;
+            justify-content: center;
+        }
+
+        article {
+            text-align: center;
+        }
+
+        /* Футер */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background-color: lightsteelblue;
+            text-align: center;
+            color: black;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .footer p {
+            margin-top: 15px;
+        }
+
+        /* Ссылки в левом боковом меню */
+        .links {
+            list-style-type: none;
+            padding: 5px;
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 10px;
+            padding: 5px
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Заголовок -->
+    <div class="header">
+        <img src="https://github.com/Evgeniy-Tsittser/dp_files/blob/main/emblem.jpeg?raw=true" alt="Эмблема" class="logo">
+        <h1 class="page-title">ООО «ГОРВОДОКАНАЛ» г.Черепаново</h1>
+    </div>
+
+    <!-- Левая панель -->
+    <aside class="left-panel">
+        <ul class="links">
+            <li><a href="http://127.0.0.1:8000/">Главная</a></li>
+            <li><a href="http://127.0.0.1:8000/about">О предприятии</a></li>
+            <li><a href="http://127.0.0.1:8000/tariffs">Тарифы</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="http://127.0.0.1:8000/quality">Качество воды</a></li>
+        </ul>
+    </aside>
+
+    <!-- Правая панель -->
+    <aside class="right-panel">
+        <p style="font-size: 14px; margin-top: 10px; padding-left: 10px;">Контакты</p>
+    </aside>
+
+    <!-- Основная часть контента -->
+    <main class="content">
+        <article>
+          <h1>Контакты предприятия</h1>
+            <br>
+            <p>Адрес предприятия: Новосибирская область, г.Черепаново, улица Строителей, дом 1а</p>
+            <br>
+            <p>Адрес электронной почты: oficvodokanal@mail.ru</p>
+            <br>
+            <p>Телефоны:</p>
+            <p>Директор, заместитель директора: 8 (38345) 25-027</p>
+            <p>Диспетчер, бухгалтерия: 8 (38345) 25-028</p>
+            <br>
+            <p>График работы:</p>
+            <p>Понедельник-четверг с 8-00 до 17-00</p>
+            <p>Пятница с 8-00 до 16-00</p>
+            <p>Перерыв с 13-00 до 14-00</p>
+        </article>
+
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <p>ООО «ГОРВОДОКАНАЛ»</p>
+        <p>633525, Новосибирская область, г.Черепаново, ул.Строителей д.1а, тел.(38345)25-028, (38345)25-027.</p>
+    </footer>
+</body>
+</html>

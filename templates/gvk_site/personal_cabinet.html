@@ -1,0 +1,30 @@
+{% extends "gvk_site/base.html" %}
+
+{% block title %}Главная ООО «ГОРВОДОКАНАЛ» г.Черепаново{% endblock %}
+
+{% block page_title %}ООО «ГОРВОДОКАНАЛ» г.Черепаново{% endblock %}
+
+{% block content %}
+<h2>{{ greeting }}</h2>
+<br>
+    <div class="centered-table">
+        <table border="1">
+            <tr>
+                <th>Адрес</th>
+                <td>{{ address }}</td>
+            </tr>
+            <tr>
+                <th>Номер водосчётчика</th>
+                <td>{{ metering_device_number }}</td>
+            </tr>
+            <tr>
+                <th>Дата поверки</th>
+                <td>{{ damage_data|date:"d-m-Y" }}</td>
+            </tr>
+            <tr>
+                <th>Дата окончания поверки</th>
+                <td>{{ verifi_period|date:"d-m-Y" }}</td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}

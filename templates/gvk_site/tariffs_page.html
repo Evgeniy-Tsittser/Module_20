@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО «ГОРВОДОКАНАЛ» г.Черепаново</title>
+    <style>
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            overflow-y: hidden;
+        }
+
+        /* Заголовочная часть */
+        .header {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            color: blue;
+        }
+
+        .logo {
+            width: auto;
+            max-height: 220%;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-right: 380px;
+            font-size: 24px;
+            line-height: 10px;
+        }
+
+        /* Боковые панели */
+        .left-panel, .right-panel {
+            position: fixed;
+            top: 70px;
+            bottom: 80px;
+            width: 140px;
+            background-color: lightsteelblue;
+        }
+
+        .left-panel {
+            left: 0;
+        }
+
+        .right-panel {
+            right: 0;
+        }
+
+        /* Центральная часть */
+        .content {
+            margin: 10px 140px 50px 300px;
+            min-height: calc(100vh - 0px);
+        }
+
+        article {
+            text-align: center;
+        }
+
+        /* Футер */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background-color: lightsteelblue;
+            text-align: center;
+            color: black;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .footer p {
+            margin-top: 15px;
+        }
+
+        /* Ссылки в левом боковом меню */
+        .links {
+            list-style-type: none;
+            padding: 5px;
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 10px;
+            padding: 5px
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Заголовок -->
+    <div class="header">
+        <img src="https://github.com/Evgeniy-Tsittser/dp_files/blob/main/emblem.jpeg?raw=true" alt="Эмблема" class="logo">
+        <h1 class="page-title">ООО «ГОРВОДОКАНАЛ» г.Черепаново</h1>
+    </div>
+
+    <!-- Левая панель -->
+    <aside class="left-panel">
+        <ul class="links">
+            <li><a href="http://127.0.0.1:8000/">Главная</a></li>
+            <li><a href="http://127.0.0.1:8000/about">О предприятии</a></li>
+            <li><a href="http://127.0.0.1:8000/tariffs">Тарифы</a></li>
+            <li><a href="http://127.0.0.1:8000/contacts">Контакты</a></li>
+            <li><a href="http://127.0.0.1:8000/quality">Качество воды</a></li>
+        </ul>
+    </aside>
+
+    <!-- Правая панель -->
+    <aside class="right-panel">
+        <a href="https://tarif.nso.ru/sites/tarif.nso.ru/wodby_files/files/page_544/prikaz_no_530-v_npa_ot_12.12.2023.pdf"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="margin-top: 100px; padding-left: 10px;">Приказ департамента по тарифам НСО</a>
+        <p style="font-size: 14px; margin-top: 10px; padding-left: 10px;">Качество воды контролируется
+            аккредитованной лабораторией</p>
+    </aside>
+
+    <main class="content">
+          <h1>Тарифы с 01.07.2024 г. по 31.06.2025 г.</h1><br>
+            <ul>
+                {% for tariff in tariffs %}
+                    <li>
+                        Тариф на водоснабжение в г.Черепаново: {{ tariff.water_ch }} руб/м<sup>3</sup><br>
+                    </li>
+                    <li>
+                        Тариф на водоснабжение в п.Пушной: {{ tariff.water_push }} руб/м<sup>3</sup><br>
+                    </li>
+                    <li>
+                        Тариф на водоотведение: {{ tariff.sewerage }} руб/м<sup>3</sup><br>
+                    </li>
+                {% endfor %}
+            </ul>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <p>ООО «ГОРВОДОКАНАЛ»</p>
+        <p>633525, Новосибирская область, г.Черепаново, ул.Строителей д.1а, тел.(38345)25-028, (38345)25-027.</p>
+    </footer>
+</body>
+</html>
