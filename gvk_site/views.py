@@ -8,10 +8,11 @@ from django.shortcuts import render, get_object_or_404
 
 logger = logging.getLogger(__name__)
 
+
 # Представление Главной страницы
 def home_views(request):
     logger.info("Доступ к главной странице сайта.")
-    return render(request, 'gvk_site/home.html')
+    return render(request, 'gvk_site/home_page.html')
 
 
 # Представление страницы О предприятии
@@ -50,6 +51,7 @@ def login_view(request):
         if form.is_valid():
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
+            logger.info(f"Форма валидна. Пользователь: {username}")
 
             try:
                 subscriber = Subscribers.objects.get(login=username)
@@ -65,6 +67,9 @@ def login_view(request):
             else:
                 context = {'form': form, 'error_message': 'Неверный логин или пароль'}
                 return render(request, 'gvk_site/login.html', context)
+
+        else:
+            logger.error("Форма невалидна: %s", form.errors)  # Логируем ошибки формы
     else:
         form = LoginForm()
 

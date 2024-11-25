@@ -1,0 +1,609 @@
+INFO 2024-11-22 23:07:00,574 autoreload Watching for file changes with StatReloader
+INFO 2024-11-22 23:07:02,877 basehttp "GET / HTTP/1.1" 200 3171
+INFO 2024-11-22 23:07:02,899 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2024-11-22 23:07:08,631 basehttp "GET /login/ HTTP/1.1" 200 3610
+WARNING 2024-11-22 23:07:08,722 basehttp "GET /static/logo.png HTTP/1.1" 404 1838
+WARNING 2024-11-22 23:07:08,739 log Not Found: /favicon.ico
+WARNING 2024-11-22 23:07:08,739 basehttp "GET /favicon.ico HTTP/1.1" 404 4031
+INFO 2024-11-22 23:07:15,586 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-22 23:07:15,653 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 2623
+INFO 2024-11-22 23:07:28,098 basehttp "GET /login/ HTTP/1.1" 200 3610
+WARNING 2024-11-22 23:07:28,109 basehttp "GET /static/logo.png HTTP/1.1" 404 1838
+INFO 2024-11-22 23:07:39,153 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-22 23:07:39,210 basehttp "GET /personal_cabinet/3/ HTTP/1.1" 200 2614
+INFO 2024-11-22 23:23:59,112 autoreload Watching for file changes with StatReloader
+INFO 2024-11-22 23:24:00,534 basehttp "GET / HTTP/1.1" 200 3171
+INFO 2024-11-22 23:24:03,503 basehttp "GET /login/ HTTP/1.1" 200 3610
+WARNING 2024-11-22 23:24:03,513 basehttp "GET /static/logo.png HTTP/1.1" 404 1838
+INFO 2024-11-22 23:24:06,262 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-22 23:24:06,310 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 2623
+INFO 2024-11-22 23:24:09,321 basehttp "GET / HTTP/1.1" 200 3171
+INFO 2024-11-22 23:24:13,915 basehttp "GET /login/ HTTP/1.1" 200 3610
+WARNING 2024-11-22 23:24:13,923 basehttp "GET /static/logo.png HTTP/1.1" 404 1838
+INFO 2024-11-22 23:24:22,766 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-22 23:24:22,818 basehttp "GET /personal_cabinet/3/ HTTP/1.1" 200 2614
+INFO 2024-11-22 23:26:49,336 autoreload Watching for file changes with StatReloader
+INFO 2024-11-22 23:26:50,890 basehttp "GET / HTTP/1.1" 200 3171
+INFO 2024-11-22 23:26:54,369 basehttp "GET /login/ HTTP/1.1" 200 3610
+WARNING 2024-11-22 23:26:54,390 basehttp "GET /static/logo.png HTTP/1.1" 404 1838
+INFO 2024-11-22 23:27:01,428 basehttp "POST /login/ HTTP/1.1" 200 3735
+WARNING 2024-11-22 23:27:01,438 basehttp "GET /static/logo.png HTTP/1.1" 404 1838
+WARNING 2024-11-22 23:46:59,994 log Not Found: /personal_cabinet/999/
+WARNING 2024-11-22 23:52:59,208 log Not Found: /personal_cabinet/999/
+WARNING 2024-11-22 23:55:08,596 log Not Found: /personal_cabinet/999/
+WARNING 2024-11-23 00:01:30,848 log Not Found: /personal_cabinet/999/
+WARNING 2024-11-23 00:06:12,366 log Not Found: /personal_cabinet/999/
+INFO 2024-11-23 10:50:14,385 autoreload Watching for file changes with StatReloader
+INFO 2024-11-23 10:50:16,086 basehttp "GET / HTTP/1.1" 200 2728
+WARNING 2024-11-23 10:50:16,163 basehttp "GET /static/static/Santech.png HTTP/1.1" 404 1868
+WARNING 2024-11-23 10:50:16,164 basehttp "GET /static/static/emblem.png HTTP/1.1" 404 1865
+WARNING 2024-11-23 10:50:16,164 basehttp "GET /static/static/Filters.png HTTP/1.1" 404 1868
+WARNING 2024-11-23 10:50:16,167 basehttp "GET /static/static/Aerotenk.png HTTP/1.1" 404 1871
+WARNING 2024-11-23 10:50:16,168 basehttp "GET /static/static/Pump_group.png HTTP/1.1" 404 1877
+WARNING 2024-11-23 10:50:16,170 basehttp "GET /static/static/Ass_mash.png HTTP/1.1" 404 1871
+INFO 2024-11-23 10:50:16,175 basehttp "GET /static/styles.css HTTP/1.1" 200 2069
+WARNING 2024-11-23 10:50:16,207 log Not Found: /favicon.ico
+WARNING 2024-11-23 10:50:16,207 basehttp "GET /favicon.ico HTTP/1.1" 404 4031
+INFO 2024-11-23 10:52:48,153 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 10:52:48,161 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2024-11-23 10:52:48,163 basehttp "GET /static/emblem.png HTTP/1.1" 200 41240
+INFO 2024-11-23 10:52:48,167 basehttp "GET /static/Ass_mash.png HTTP/1.1" 200 128496
+INFO 2024-11-23 10:52:48,168 basehttp "GET /static/Pump_group.png HTTP/1.1" 200 188497
+INFO 2024-11-23 10:52:48,169 basehttp "GET /static/Aerotenk.png HTTP/1.1" 200 176720
+INFO 2024-11-23 10:52:48,169 basehttp "GET /static/Santech.png HTTP/1.1" 200 331195
+INFO 2024-11-23 10:52:48,172 basehttp "GET /static/Filters.png HTTP/1.1" 200 1134789
+INFO 2024-11-23 10:53:22,001 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 10:53:22,007 basehttp "GET /static/styles.css HTTP/1.1" 200 2068
+INFO 2024-11-23 10:53:23,491 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 10:53:23,497 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2024-11-23 10:53:43,085 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 10:53:43,093 basehttp "GET /static/emblem.png HTTP/1.1" 304 0
+INFO 2024-11-23 10:53:43,093 basehttp "GET /static/styles.css HTTP/1.1" 200 2068
+INFO 2024-11-23 10:54:00,197 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 10:54:00,206 basehttp "GET /static/styles.css HTTP/1.1" 200 2068
+INFO 2024-11-23 10:54:00,209 basehttp "GET /static/emblem.png HTTP/1.1" 200 41240
+INFO 2024-11-23 10:54:00,213 basehttp "GET /static/Pump_group.png HTTP/1.1" 200 188497
+INFO 2024-11-23 10:54:00,214 basehttp "GET /static/Ass_mash.png HTTP/1.1" 200 128496
+INFO 2024-11-23 10:54:00,215 basehttp "GET /static/Aerotenk.png HTTP/1.1" 200 176720
+INFO 2024-11-23 10:54:00,216 basehttp "GET /static/Santech.png HTTP/1.1" 200 331195
+INFO 2024-11-23 10:54:00,220 basehttp "GET /static/Filters.png HTTP/1.1" 200 1134789
+INFO 2024-11-23 10:56:32,453 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 10:56:32,459 basehttp "GET /static/emblem.png HTTP/1.1" 304 0
+INFO 2024-11-23 10:56:32,460 basehttp "GET /static/styles.css HTTP/1.1" 200 2067
+INFO 2024-11-23 10:57:54,053 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 10:57:54,059 basehttp "GET /static/emblem.png HTTP/1.1" 304 0
+INFO 2024-11-23 10:57:54,059 basehttp "GET /static/Santech.png HTTP/1.1" 304 0
+INFO 2024-11-23 10:57:54,061 basehttp "GET /static/styles.css HTTP/1.1" 200 2065
+INFO 2024-11-23 10:57:54,063 basehttp "GET /static/Pump_group.png HTTP/1.1" 304 0
+INFO 2024-11-23 10:57:54,064 basehttp "GET /static/Filters.png HTTP/1.1" 304 0
+INFO 2024-11-23 10:57:54,064 basehttp "GET /static/Ass_mash.png HTTP/1.1" 304 0
+INFO 2024-11-23 10:57:54,064 basehttp "GET /static/Aerotenk.png HTTP/1.1" 304 0
+INFO 2024-11-23 10:58:12,373 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 10:58:12,379 basehttp "GET /static/styles.css HTTP/1.1" 200 2065
+INFO 2024-11-23 10:58:48,125 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 10:58:48,131 basehttp "GET /static/styles.css HTTP/1.1" 200 2065
+INFO 2024-11-23 10:59:24,100 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 10:59:24,108 basehttp "GET /static/emblem.png HTTP/1.1" 304 0
+INFO 2024-11-23 10:59:24,110 basehttp "GET /static/styles.css HTTP/1.1" 200 2065
+INFO 2024-11-23 11:02:41,101 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 11:02:41,109 basehttp "GET /static/emblem.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:02:41,111 basehttp "GET /static/styles.css HTTP/1.1" 200 2067
+INFO 2024-11-23 11:02:41,111 basehttp "GET /static/Santech.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:02:41,115 basehttp "GET /static/Filters.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:02:41,115 basehttp "GET /static/Pump_group.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:02:41,116 basehttp "GET /static/Ass_mash.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:02:41,116 basehttp "GET /static/Aerotenk.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:02:58,181 autoreload Watching for file changes with StatReloader
+INFO 2024-11-23 11:03:00,880 basehttp "GET / HTTP/1.1" 200 2686
+INFO 2024-11-23 11:03:00,889 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2024-11-23 11:04:26,750 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:04:26,755 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2024-11-23 11:10:01,507 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:10:01,513 basehttp "GET /static/Santech.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:10:01,515 basehttp "GET /static/Pump_group.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:10:01,517 basehttp "GET /static/Filters.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:10:01,517 basehttp "GET /static/Aerotenk.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:10:01,517 basehttp "GET /static/Ass_mash.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:10:01,538 basehttp "GET /static/styles.css HTTP/1.1" 200 2294
+INFO 2024-11-23 11:10:25,906 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:10:25,912 basehttp "GET /static/styles.css HTTP/1.1" 200 2067
+INFO 2024-11-23 11:10:53,644 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:10:53,653 basehttp "GET /static/styles.css HTTP/1.1" 200 2067
+INFO 2024-11-23 11:11:03,459 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:11:03,467 basehttp "GET /static/styles.css HTTP/1.1" 200 2067
+INFO 2024-11-23 11:13:31,812 basehttp "GET / HTTP/1.1" 200 2622
+INFO 2024-11-23 11:13:31,819 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2024-11-23 11:13:33,673 basehttp "GET / HTTP/1.1" 200 2622
+INFO 2024-11-23 11:13:59,548 basehttp "GET / HTTP/1.1" 200 2614
+INFO 2024-11-23 11:13:59,555 basehttp "GET /static/styles.css HTTP/1.1" 200 2066
+INFO 2024-11-23 11:14:01,313 basehttp "GET / HTTP/1.1" 200 2614
+INFO 2024-11-23 11:14:01,320 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2024-11-23 11:14:34,198 autoreload Watching for file changes with StatReloader
+INFO 2024-11-23 11:14:35,519 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:14:35,529 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2024-11-23 11:15:32,897 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:15:32,904 basehttp "GET /static/Santech.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:15:32,907 basehttp "GET /static/Aerotenk.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:15:32,907 basehttp "GET /static/Pump_group.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:15:32,907 basehttp "GET /static/Ass_mash.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:15:32,908 basehttp "GET /static/Filters.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:15:32,925 basehttp "GET /static/styles.css HTTP/1.1" 200 2066
+INFO 2024-11-23 11:15:45,001 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:15:45,009 basehttp "GET /static/styles.css HTTP/1.1" 200 2066
+INFO 2024-11-23 11:16:02,074 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:16:02,083 basehttp "GET /static/styles.css HTTP/1.1" 200 2066
+INFO 2024-11-23 11:16:29,579 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:16:29,587 basehttp "GET /static/styles.css HTTP/1.1" 200 2066
+INFO 2024-11-23 11:16:41,379 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:16:41,385 basehttp "GET /static/styles.css HTTP/1.1" 200 2066
+INFO 2024-11-23 11:16:55,284 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:16:55,292 basehttp "GET /static/styles.css HTTP/1.1" 200 2066
+INFO 2024-11-23 11:18:12,353 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:18:12,359 basehttp "GET /static/styles.css HTTP/1.1" 200 2067
+INFO 2024-11-23 11:19:01,595 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:19:01,601 basehttp "GET /static/styles.css HTTP/1.1" 200 2066
+INFO 2024-11-23 11:19:11,330 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:19:11,337 basehttp "GET /static/styles.css HTTP/1.1" 200 2067
+INFO 2024-11-23 11:19:21,739 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:19:21,747 basehttp "GET /static/styles.css HTTP/1.1" 200 2067
+INFO 2024-11-23 11:19:36,058 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:19:36,066 basehttp "GET /static/styles.css HTTP/1.1" 200 2067
+INFO 2024-11-23 11:20:37,436 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:20:37,443 basehttp "GET /static/styles.css HTTP/1.1" 200 2067
+INFO 2024-11-23 11:21:46,162 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:21:46,169 basehttp "GET /static/Santech.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:21:46,170 basehttp "GET /static/styles.css HTTP/1.1" 200 2102
+INFO 2024-11-23 11:21:46,174 basehttp "GET /static/Pump_group.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:21:46,174 basehttp "GET /static/Filters.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:21:46,175 basehttp "GET /static/Aerotenk.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:21:46,176 basehttp "GET /static/Ass_mash.png HTTP/1.1" 304 0
+INFO 2024-11-23 11:22:22,297 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:22:22,304 basehttp "GET /static/styles.css HTTP/1.1" 200 2099
+INFO 2024-11-23 11:23:29,650 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:23:29,656 basehttp "GET /static/styles.css HTTP/1.1" 200 2120
+INFO 2024-11-23 11:23:51,443 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:23:51,450 basehttp "GET /static/styles.css HTTP/1.1" 200 2123
+INFO 2024-11-23 11:24:25,929 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-23 11:24:25,935 basehttp "GET /static/styles.css HTTP/1.1" 200 2092
+INFO 2024-11-24 13:32:09,231 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 13:32:11,077 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-24 13:32:11,089 basehttp "GET /static/styles.css HTTP/1.1" 304 0
+INFO 2024-11-24 13:32:11,089 basehttp "GET /static/Santech.png HTTP/1.1" 304 0
+INFO 2024-11-24 13:32:11,106 basehttp "GET /static/Pump_group.png HTTP/1.1" 304 0
+INFO 2024-11-24 13:32:11,107 basehttp "GET /static/Filters.png HTTP/1.1" 304 0
+INFO 2024-11-24 13:32:11,108 basehttp "GET /static/Aerotenk.png HTTP/1.1" 304 0
+INFO 2024-11-24 13:32:11,108 basehttp "GET /static/Ass_mash.png HTTP/1.1" 304 0
+WARNING 2024-11-24 13:32:11,865 log Not Found: /favicon.ico
+WARNING 2024-11-24 13:32:11,865 basehttp "GET /favicon.ico HTTP/1.1" 404 4031
+INFO 2024-11-24 13:35:52,561 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-24 13:36:00,230 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-24 13:36:01,197 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-24 13:36:01,366 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-24 13:36:21,347 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 13:36:23,289 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-24 13:37:14,342 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-24 13:37:33,157 basehttp "GET /about HTTP/1.1" 301 0
+INFO 2024-11-24 13:37:33,176 basehttp "GET /about/ HTTP/1.1" 200 5473
+INFO 2024-11-24 13:37:41,226 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-24 13:37:43,363 basehttp "GET /about/ HTTP/1.1" 200 5473
+INFO 2024-11-24 13:37:47,907 basehttp "GET /tariffs HTTP/1.1" 301 0
+INFO 2024-11-24 13:37:48,110 basehttp "GET /tariffs/ HTTP/1.1" 200 4795
+INFO 2024-11-24 13:37:50,189 basehttp "GET /contacts HTTP/1.1" 301 0
+INFO 2024-11-24 13:37:50,201 basehttp "GET /contacts/ HTTP/1.1" 200 4698
+INFO 2024-11-24 13:37:53,028 basehttp "GET /quality HTTP/1.1" 301 0
+INFO 2024-11-24 13:37:53,101 basehttp "GET /quality/ HTTP/1.1" 200 7617
+INFO 2024-11-24 13:40:31,748 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-24 13:40:34,009 basehttp "GET /quality/ HTTP/1.1" 200 7949
+INFO 2024-11-24 13:41:00,137 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2024-11-24 13:41:00,173 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-11-24 13:41:00,311 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2024-11-24 13:41:00,427 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-11-24 13:41:00,428 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2024-11-24 13:41:00,433 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2024-11-24 13:41:00,433 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2024-11-24 13:41:00,433 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2024-11-24 13:41:00,450 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2024-11-24 13:41:00,452 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-11-24 13:41:09,882 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-11-24 13:41:09,968 basehttp "GET /admin/ HTTP/1.1" 200 16210
+INFO 2024-11-24 13:41:09,985 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-11-24 13:41:09,997 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-11-24 13:41:09,997 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+ERROR 2024-11-24 13:41:13,594 log Internal Server Error: /admin/gvk_site/quality/
+Traceback (most recent call last):
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\db\models\options.py", line 676, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'action_checkbox'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 290, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 330, in _get_non_gfk_field
+    field = opts.get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\db\models\options.py", line 678, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Quality has no field named 'action_checkbox'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 346, in result_list
+    "results": list(results(cl)),
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 322, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 313, in __init__
+    super().__init__(*items)
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 218, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\contrib\admin\utils.py", line 299, in lookup_field
+    value = attr(obj)
+            ^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\contrib\admin\options.py", line 1030, in action_checkbox
+    _("Select this object for an action - {}"), str(obj)
+                                                ^^^^^^^^
+TypeError: __str__ returned non-string (type tuple)
+ERROR 2024-11-24 13:41:13,602 basehttp "GET /admin/gvk_site/quality/ HTTP/1.1" 500 385185
+INFO 2024-11-24 13:43:30,625 autoreload C:\Users\evgen\Diplom_Project\diplom_project\gvk_site\models.py changed, reloading.
+INFO 2024-11-24 13:43:31,419 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 13:43:39,981 basehttp "GET /admin/ HTTP/1.1" 200 16210
+INFO 2024-11-24 13:43:42,825 basehttp "GET /admin/gvk_site/quality/ HTTP/1.1" 200 15424
+INFO 2024-11-24 13:43:42,918 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 13:43:42,934 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2024-11-24 13:43:42,937 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-11-24 13:43:42,961 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-11-24 13:43:42,961 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-11-24 13:43:42,962 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2024-11-24 13:43:42,964 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-11-24 13:43:42,982 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2024-11-24 13:43:43,000 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-11-24 13:43:43,025 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-11-24 13:43:43,063 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-11-24 13:43:43,090 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-11-24 13:43:47,192 basehttp "GET /admin/gvk_site/quality/add/ HTTP/1.1" 200 15199
+INFO 2024-11-24 13:43:47,212 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+INFO 2024-11-24 13:43:47,218 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-11-24 13:43:47,226 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2024-11-24 13:43:47,239 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-11-24 13:43:47,253 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 13:44:24,812 basehttp "POST /admin/gvk_site/quality/add/ HTTP/1.1" 302 0
+INFO 2024-11-24 13:44:24,968 basehttp "GET /admin/gvk_site/quality/ HTTP/1.1" 200 15918
+INFO 2024-11-24 13:44:25,025 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-24 13:44:25,047 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-11-24 13:44:42,754 basehttp "GET / HTTP/1.1" 200 2734
+INFO 2024-11-24 13:45:22,926 basehttp "GET / HTTP/1.1" 200 2743
+INFO 2024-11-24 13:45:26,795 basehttp "GET /about/ HTTP/1.1" 200 5473
+INFO 2024-11-24 13:45:28,289 basehttp "GET / HTTP/1.1" 200 2743
+INFO 2024-11-24 13:45:30,322 basehttp "GET /about/ HTTP/1.1" 200 5473
+INFO 2024-11-24 13:45:31,366 basehttp "GET /tariffs/ HTTP/1.1" 200 4795
+INFO 2024-11-24 13:45:32,306 basehttp "GET /contacts/ HTTP/1.1" 200 4698
+INFO 2024-11-24 13:45:33,320 basehttp "GET /quality/ HTTP/1.1" 200 8221
+INFO 2024-11-24 13:46:58,673 basehttp "GET / HTTP/1.1" 200 2743
+INFO 2024-11-24 13:48:15,076 basehttp "GET / HTTP/1.1" 200 2743
+INFO 2024-11-24 13:48:45,126 basehttp "GET / HTTP/1.1" 200 2743
+INFO 2024-11-24 13:49:01,525 basehttp "GET / HTTP/1.1" 200 2743
+INFO 2024-11-24 13:49:26,045 basehttp "GET / HTTP/1.1" 200 2743
+INFO 2024-11-24 13:49:44,999 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 13:49:46,522 basehttp "GET / HTTP/1.1" 200 2743
+INFO 2024-11-24 13:53:36,783 autoreload C:\Users\evgen\Diplom_Project\diplom_project\gvk_site\views.py changed, reloading.
+INFO 2024-11-24 13:53:37,612 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 13:53:46,324 basehttp "GET / HTTP/1.1" 200 5842
+INFO 2024-11-24 13:54:45,718 basehttp "GET / HTTP/1.1" 200 5825
+INFO 2024-11-24 13:55:44,822 basehttp "GET / HTTP/1.1" 200 5863
+INFO 2024-11-24 13:56:43,030 basehttp "GET / HTTP/1.1" 200 5863
+INFO 2024-11-24 13:56:59,893 basehttp "GET / HTTP/1.1" 200 5864
+INFO 2024-11-24 13:57:17,382 basehttp "GET / HTTP/1.1" 200 5864
+INFO 2024-11-24 13:57:29,557 basehttp "GET / HTTP/1.1" 200 5864
+INFO 2024-11-24 13:57:40,101 basehttp "GET / HTTP/1.1" 200 5864
+INFO 2024-11-24 13:58:48,973 basehttp "GET / HTTP/1.1" 200 5863
+INFO 2024-11-24 13:59:34,877 basehttp "GET / HTTP/1.1" 200 5864
+INFO 2024-11-24 13:59:50,100 basehttp "GET / HTTP/1.1" 200 5864
+INFO 2024-11-24 14:00:11,773 basehttp "GET / HTTP/1.1" 200 5864
+INFO 2024-11-24 14:00:20,995 basehttp "GET / HTTP/1.1" 200 5864
+INFO 2024-11-24 14:01:15,477 basehttp "GET / HTTP/1.1" 200 5855
+INFO 2024-11-24 14:03:05,957 basehttp "GET / HTTP/1.1" 200 5857
+INFO 2024-11-24 14:03:34,789 basehttp "GET / HTTP/1.1" 200 5858
+INFO 2024-11-24 14:06:26,548 basehttp "GET / HTTP/1.1" 200 5859
+INFO 2024-11-24 14:06:58,638 basehttp "GET / HTTP/1.1" 200 5854
+INFO 2024-11-24 14:07:18,436 basehttp "GET / HTTP/1.1" 200 5854
+INFO 2024-11-24 14:07:45,781 basehttp "GET / HTTP/1.1" 200 5856
+INFO 2024-11-24 14:11:18,669 basehttp "GET / HTTP/1.1" 200 5928
+INFO 2024-11-24 14:11:40,373 basehttp "GET / HTTP/1.1" 200 5856
+INFO 2024-11-24 14:12:17,182 basehttp "GET / HTTP/1.1" 200 5889
+INFO 2024-11-24 14:13:13,908 basehttp "GET / HTTP/1.1" 200 5893
+INFO 2024-11-24 14:13:38,435 basehttp "GET / HTTP/1.1" 200 5889
+INFO 2024-11-24 14:14:16,705 basehttp "GET /about/ HTTP/1.1" 200 5473
+INFO 2024-11-24 14:16:32,561 basehttp "GET /about/ HTTP/1.1" 200 5522
+INFO 2024-11-24 14:18:29,691 basehttp "GET /about/ HTTP/1.1" 200 5654
+INFO 2024-11-24 14:18:54,867 basehttp "GET /about/ HTTP/1.1" 200 5659
+INFO 2024-11-24 14:19:12,667 basehttp "GET /tariffs/ HTTP/1.1" 200 4795
+INFO 2024-11-24 14:20:59,254 basehttp "GET /tariffs/ HTTP/1.1" 200 4807
+INFO 2024-11-24 14:21:07,000 basehttp "GET /about/ HTTP/1.1" 200 5659
+INFO 2024-11-24 14:21:09,630 basehttp "GET /tariffs/ HTTP/1.1" 200 4807
+INFO 2024-11-24 14:21:21,822 basehttp "GET /tariffs/ HTTP/1.1" 200 4807
+INFO 2024-11-24 14:21:22,614 basehttp "GET /about/ HTTP/1.1" 200 5659
+INFO 2024-11-24 14:21:52,491 basehttp "GET /about/ HTTP/1.1" 200 5659
+WARNING 2024-11-24 14:22:10,534 log Not Found: /favicon.ico
+WARNING 2024-11-24 14:22:10,534 basehttp "GET /favicon.ico HTTP/1.1" 404 4031
+INFO 2024-11-24 14:22:21,659 basehttp "GET /about/ HTTP/1.1" 200 5659
+INFO 2024-11-24 14:22:49,440 basehttp "GET /about/ HTTP/1.1" 200 5659
+INFO 2024-11-24 14:24:00,235 basehttp "GET /tariffs/ HTTP/1.1" 200 4856
+INFO 2024-11-24 14:24:12,446 basehttp "GET /contacts/ HTTP/1.1" 200 4698
+INFO 2024-11-24 14:25:35,451 basehttp "GET /contacts/ HTTP/1.1" 200 4747
+INFO 2024-11-24 14:26:23,586 basehttp "GET /quality/ HTTP/1.1" 200 8221
+INFO 2024-11-24 14:27:11,951 basehttp "GET /quality/ HTTP/1.1" 200 8275
+INFO 2024-11-24 14:27:44,573 basehttp "GET / HTTP/1.1" 200 5889
+INFO 2024-11-24 14:29:16,531 basehttp "GET / HTTP/1.1" 200 5913
+INFO 2024-11-24 14:29:19,504 basehttp "GET /login HTTP/1.1" 301 0
+INFO 2024-11-24 14:29:19,574 basehttp "GET /login/ HTTP/1.1" 200 3610
+WARNING 2024-11-24 14:29:19,583 basehttp "GET /static/logo.png HTTP/1.1" 404 1838
+INFO 2024-11-24 14:30:30,972 basehttp "GET /login/ HTTP/1.1" 200 3764
+INFO 2024-11-24 14:32:17,720 basehttp "GET /login/ HTTP/1.1" 200 4228
+INFO 2024-11-24 14:48:32,094 basehttp "GET /login/ HTTP/1.1" 200 4083
+WARNING 2024-11-24 14:48:32,107 basehttp "GET /static/images/background.jpg HTTP/1.1" 404 1877
+INFO 2024-11-24 14:50:07,855 basehttp "GET /login/ HTTP/1.1" 200 4080
+WARNING 2024-11-24 14:50:07,867 basehttp "GET /static/images/Fonov.png HTTP/1.1" 404 1862
+INFO 2024-11-24 14:51:45,573 basehttp "GET /login/ HTTP/1.1" 200 4057
+INFO 2024-11-24 14:51:45,612 basehttp "GET /static/Fonov.png HTTP/1.1" 200 27558
+INFO 2024-11-24 14:52:29,198 basehttp "GET /login/ HTTP/1.1" 200 3922
+INFO 2024-11-24 14:53:41,188 basehttp "GET /login/ HTTP/1.1" 200 3663
+INFO 2024-11-24 14:53:41,199 basehttp "GET /static/Fonov.png HTTP/1.1" 304 0
+INFO 2024-11-24 14:54:23,260 basehttp "GET /login/ HTTP/1.1" 200 3663
+INFO 2024-11-24 14:54:31,420 basehttp "GET /login/ HTTP/1.1" 200 3663
+INFO 2024-11-24 14:54:47,702 basehttp "GET /login/ HTTP/1.1" 200 3663
+INFO 2024-11-24 14:54:47,710 basehttp "GET /static/Fonov.png HTTP/1.1" 304 0
+INFO 2024-11-24 14:56:39,752 basehttp "GET /login/ HTTP/1.1" 200 3662
+INFO 2024-11-24 14:56:39,763 basehttp "GET /static/Fonov.png HTTP/1.1" 304 0
+INFO 2024-11-24 14:56:49,540 basehttp "GET /login/ HTTP/1.1" 200 3662
+INFO 2024-11-24 14:57:03,422 basehttp "GET /login/ HTTP/1.1" 200 3662
+INFO 2024-11-24 14:57:24,587 basehttp "GET /login/ HTTP/1.1" 200 3590
+INFO 2024-11-24 14:57:34,473 basehttp "POST /login/ HTTP/1.1" 200 3798
+INFO 2024-11-24 14:58:24,888 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-24 14:58:24,953 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 2623
+ERROR 2024-11-24 15:01:15,078 log Internal Server Error: /personal_cabinet/4/
+Traceback (most recent call last):
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\diplom_project\gvk_site\views.py", line 91, in personal_cabinet_view
+    return render(request, 'gvk_site/personal_cabinet.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\evgen\Diplom_Project\.venv\Lib\site-packages\django\template\base.py", line 573, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 153: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-11-24 15:01:15,084 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 500 148544
+INFO 2024-11-24 15:02:27,670 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 4331
+INFO 2024-11-24 15:02:36,102 basehttp "GET / HTTP/1.1" 200 5913
+INFO 2024-11-24 15:02:39,376 basehttp "GET /login/ HTTP/1.1" 200 3590
+INFO 2024-11-24 15:02:39,386 basehttp "GET /static/Fonov.png HTTP/1.1" 304 0
+INFO 2024-11-24 15:02:42,600 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-24 15:02:42,646 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 4331
+INFO 2024-11-24 15:04:49,068 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 4616
+INFO 2024-11-24 15:07:39,708 basehttp "GET / HTTP/1.1" 200 5913
+INFO 2024-11-24 15:08:04,562 basehttp "GET /about/ HTTP/1.1" 200 5659
+INFO 2024-11-24 15:08:06,831 basehttp "GET /tariffs/ HTTP/1.1" 200 4856
+INFO 2024-11-24 15:08:09,156 basehttp "GET /contacts/ HTTP/1.1" 200 4747
+INFO 2024-11-24 15:08:11,103 basehttp "GET /quality/ HTTP/1.1" 200 8275
+INFO 2024-11-24 15:08:17,008 basehttp "GET / HTTP/1.1" 200 5913
+INFO 2024-11-24 15:08:21,375 basehttp "GET /login/ HTTP/1.1" 200 3590
+INFO 2024-11-24 15:08:21,386 basehttp "GET /static/Fonov.png HTTP/1.1" 304 0
+INFO 2024-11-24 15:14:22,730 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-24 15:14:22,892 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 4626
+INFO 2024-11-24 15:18:53,246 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 5159
+INFO 2024-11-24 15:21:16,949 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 5418
+INFO 2024-11-24 15:22:59,621 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 5524
+INFO 2024-11-24 15:23:36,700 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 5524
+INFO 2024-11-24 15:23:41,176 basehttp "GET /login/ HTTP/1.1" 200 3590
+INFO 2024-11-24 15:23:41,186 basehttp "GET /static/Fonov.png HTTP/1.1" 304 0
+INFO 2024-11-24 15:23:44,946 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-24 15:23:44,999 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 5524
+INFO 2024-11-24 15:23:50,911 basehttp "GET / HTTP/1.1" 200 5913
+INFO 2024-11-24 15:23:57,584 basehttp "GET /about/ HTTP/1.1" 200 5659
+INFO 2024-11-24 15:23:59,280 basehttp "GET /tariffs/ HTTP/1.1" 200 4856
+INFO 2024-11-24 15:24:01,247 basehttp "GET /contacts/ HTTP/1.1" 200 4747
+INFO 2024-11-24 15:24:03,875 basehttp "GET /quality/ HTTP/1.1" 200 8275
+WARNING 2024-11-24 15:25:59,324 log Not Found: /personal_cabinet/999/
+INFO 2024-11-24 15:27:08,681 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 15:27:10,992 basehttp "GET / HTTP/1.1" 200 5913
+INFO 2024-11-24 15:27:42,260 basehttp "GET /about/ HTTP/1.1" 200 5659
+INFO 2024-11-24 15:27:46,881 basehttp "GET /tariffs/ HTTP/1.1" 200 4856
+INFO 2024-11-24 15:27:53,659 basehttp "GET /contacts/ HTTP/1.1" 200 4747
+INFO 2024-11-24 15:27:58,920 basehttp "GET /quality/ HTTP/1.1" 200 8275
+INFO 2024-11-24 15:28:03,746 basehttp "GET / HTTP/1.1" 200 5913
+INFO 2024-11-24 15:28:05,956 basehttp "GET /login/ HTTP/1.1" 200 3590
+INFO 2024-11-24 15:28:05,964 basehttp "GET /static/Fonov.png HTTP/1.1" 304 0
+INFO 2024-11-24 15:28:20,042 basehttp "POST /login/ HTTP/1.1" 200 3798
+INFO 2024-11-24 15:33:55,472 basehttp "POST /login/ HTTP/1.1" 200 3630
+INFO 2024-11-24 15:33:55,481 basehttp "GET /static/Fonov.png HTTP/1.1" 304 0
+INFO 2024-11-24 15:34:04,016 basehttp "POST /login/ HTTP/1.1" 200 3630
+INFO 2024-11-24 15:34:14,966 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-24 15:34:15,013 basehttp "GET /personal_cabinet/3/ HTTP/1.1" 200 5515
+INFO 2024-11-24 15:58:51,105 basehttp "GET / HTTP/1.1" 200 5913
+INFO 2024-11-24 15:58:55,240 basehttp "GET /about/ HTTP/1.1" 200 5659
+INFO 2024-11-24 15:58:56,544 basehttp "GET /tariffs/ HTTP/1.1" 200 4856
+INFO 2024-11-24 15:58:57,803 basehttp "GET /contacts/ HTTP/1.1" 200 4747
+INFO 2024-11-24 15:58:58,878 basehttp "GET /quality/ HTTP/1.1" 200 8275
+INFO 2024-11-24 15:59:01,766 basehttp "GET / HTTP/1.1" 200 5913
+INFO 2024-11-24 15:59:07,553 basehttp "GET /login/ HTTP/1.1" 200 3532
+INFO 2024-11-24 15:59:07,562 basehttp "GET /static/Fonov.png HTTP/1.1" 304 0
+INFO 2024-11-24 15:59:10,227 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-24 15:59:10,282 basehttp "GET /personal_cabinet/4/ HTTP/1.1" 200 5524
+INFO 2024-11-24 15:59:19,656 basehttp "GET /login/ HTTP/1.1" 200 3532
+INFO 2024-11-24 15:59:26,646 basehttp "POST /login/ HTTP/1.1" 200 3651
+INFO 2024-11-24 15:59:41,982 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-24 15:59:42,024 basehttp "GET /personal_cabinet/3/ HTTP/1.1" 200 5515
+INFO 2024-11-24 16:00:20,494 basehttp "GET / HTTP/1.1" 200 5913
+INFO 2024-11-24 16:51:30,193 autoreload Watching for file changes with StatReloader
+INFO 2024-11-24 16:51:32,476 basehttp "GET / HTTP/1.1" 200 5914
+INFO 2024-11-24 16:51:56,373 basehttp "GET /admin/ HTTP/1.1" 200 16217
+INFO 2024-11-25 12:13:24,356 autoreload Watching for file changes with StatReloader
+INFO 2024-11-25 12:13:27,584 basehttp "GET / HTTP/1.1" 200 5914
+WARNING 2024-11-25 12:13:29,863 log Not Found: /favicon.ico
+WARNING 2024-11-25 12:13:29,864 basehttp "GET /favicon.ico HTTP/1.1" 404 4031
+INFO 2024-11-25 12:13:31,222 basehttp "GET /login/ HTTP/1.1" 200 3532
+INFO 2024-11-25 12:13:31,239 basehttp "GET /static/Fonov.png HTTP/1.1" 304 0
+INFO 2024-11-25 12:14:08,378 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-25 12:14:08,444 basehttp "GET /personal_cabinet/3/ HTTP/1.1" 200 5515
+INFO 2024-11-25 12:14:51,164 basehttp "GET /login/ HTTP/1.1" 200 3532
+INFO 2024-11-25 12:17:39,458 basehttp "GET /login/ HTTP/1.1" 200 3618
+INFO 2024-11-25 12:17:50,075 basehttp "GET / HTTP/1.1" 200 5914
+INFO 2024-11-25 12:18:31,699 basehttp "GET /login/ HTTP/1.1" 200 3618
+INFO 2024-11-25 12:19:16,113 basehttp "GET /login/ HTTP/1.1" 200 3601
+INFO 2024-11-25 12:19:31,933 basehttp "GET /login/ HTTP/1.1" 200 3610
+INFO 2024-11-25 12:20:46,217 basehttp "GET /login/ HTTP/1.1" 200 3568
+INFO 2024-11-25 12:21:24,761 basehttp "GET /login/ HTTP/1.1" 200 3560
+INFO 2024-11-25 12:22:01,205 basehttp "GET /login/ HTTP/1.1" 200 3560
+INFO 2024-11-25 12:22:09,725 basehttp "GET /login/ HTTP/1.1" 200 3560
+INFO 2024-11-25 12:22:55,526 basehttp "GET /login/ HTTP/1.1" 200 3585
+INFO 2024-11-25 17:50:18,397 autoreload Watching for file changes with StatReloader
+INFO 2024-11-25 17:50:20,657 basehttp "GET / HTTP/1.1" 200 5914
+WARNING 2024-11-25 17:50:22,156 log Not Found: /favicon.ico
+WARNING 2024-11-25 17:50:22,156 basehttp "GET /favicon.ico HTTP/1.1" 404 4031
+INFO 2024-11-25 17:50:26,971 basehttp "GET /admin/ HTTP/1.1" 200 16217
+INFO 2024-11-25 17:50:26,983 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-11-25 17:50:26,983 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-11-25 17:50:26,983 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-11-25 17:50:26,984 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-11-25 17:50:26,984 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-11-25 17:50:26,984 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:50:27,003 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:50:27,015 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-11-25 17:50:27,015 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:13,831 basehttp "GET /admin/gvk_site/subscribers/ HTTP/1.1" 200 14316
+INFO 2024-11-25 17:51:13,849 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:13,854 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:13,856 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:13,857 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:13,857 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:13,860 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:13,861 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:13,920 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-25 17:51:13,945 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:13,945 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:14,037 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-11-25 17:51:14,057 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0

@@ -2,42 +2,69 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Вход в личный кабинет</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация | ООО "Горводоканал"</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            background-color: #f9f9fa;
+            min-height: 100vh;
+            background-image: url('/static/Fonov.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
-        .logo {
-            position: absolute;
-            top: 20px;
-            left: 30px;
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+
+            color: white;
+            display: flex;
+            align-items: center;
+            z-index: 999;
         }
 
-        h1 {
-            text-align: center;
-            margin-bottom: 50px;
+                header a {
+            margin-left: 410px;
+            font-size: 24px;
+            color: white;
         }
 
-        .auth-window {
-            width: 300px;
+        .login-form {
+            max-width: 400px;
             padding: 40px;
+            background-color: rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-            background-color: white;
+            position: relative;
+            top: 10px;
         }
 
-        label {
-            display: block;
-            margin-top: 15px;
+        .login-form h2 {
+            text-align: center;
+            margin-bottom: 30px;
         }
 
-        input[type=text], input[type=password] {
+        .login-form .error-message {
+            color: red;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .login-form input {
             width: 100%;
             padding: 12px 20px;
             margin: 8px 0;
@@ -47,9 +74,9 @@
             box-sizing: border-box;
         }
 
-        button {
+        .login-form button {
             width: 100%;
-            background-color: #4CAF50;
+            background-color: #007bff;
             color: white;
             padding: 14px 20px;
             margin: 8px 0;
@@ -58,53 +85,39 @@
             cursor: pointer;
         }
 
-        button:hover {
-            background-color: #45a049;
-        }
-        .auth-window {
-            position: relative; /* Чтобы дочерние элементы могли позиционироваться относительно родителя */
+        .login-form button:hover {
+            background-color: #0056b3;
         }
 
-    .error-message {
-        position: absolute;
-        top: 10px; /* Расстояние от верхнего края */
-        left: 50%; /* Центрирование по горизонтали */
-        transform: translateX(-50%); /* Смещение на половину ширины элемента для точного центрирования */
-        color: red; /* Цвет текста */
-        font-size: 16px; /* Размер шрифта */
-        z-index: 1; /* Размещение над остальными элементами */
+        ::placeholder {
+            color: #aaa;
+            opacity: 1;
+        }
     </style>
 </head>
 <body>
-
-    <!-- Логотип -->
-    <div class="logo">
-        <a href="#"><img src="/static/logo.png" alt="Логотип"></a>
-    </div>
-
-    <h1>Вход в личный кабинет</h1>
-    <div class="auth-window">
+    <header>
+        <a href="http://127.0.0.1:8000/">ООО "Горводоканал" г.Черепаново</a>
+    </header>
+    <div class="login-form">
+        <h2>Авторизация</h2>
+        {% if error_message %}
+            <p class="error-message">{{ error_message }}</p>
+        {% endif %}
         <form method="post" action="{% url 'login' %}">
             {% csrf_token %}
-            <div class="error-message">
-                {% if error_message %}
-                <p style="color: red;">{{ error_message }}</p>
-            {% endif %}
-            </div>
             {{ form.as_p }}
             <button type="submit">Войти в личный кабинет</button>
         </form>
     </div>
-    <!-- Скрипт для очистки полей формы -->
+<!-- Скрипт для очистки полей формы -->
     <script>
         window.addEventListener("load", function () {
             // Находим форму по её ID
             const form = document.getElementById("login-form");
-
             // Очищаем все поля формы
             form.reset();
         });
     </script>
-
 </body>
 </html>

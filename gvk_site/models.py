@@ -50,4 +50,4 @@ class Quality(models.Model):
     rigidity = models.DecimalField(max_digits=10, decimal_places=2)
 
     def __str__(self):
-        return self.month, self.iron, self.manganese, self.turbidity, self.rigidity
+        return self.month

@@ -1,30 +1,189 @@
-{% extends "gvk_site/base.html" %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ООО «ГОРВОДОКАНАЛ» г.Черепаново</title>
+    <style>
+        /* Общие стили */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-{% block title %}Главная ООО «ГОРВОДОКАНАЛ» г.Черепаново{% endblock %}
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            overflow-y: hidden;
+        }
 
-{% block page_title %}ООО «ГОРВОДОКАНАЛ» г.Черепаново{% endblock %}
+        /* Заголовочная часть */
+        .header {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+            color: blue;
+        }
 
-{% block content %}
-<h2>{{ greeting }}</h2>
-<br>
-    <div class="centered-table">
-        <table border="1">
-            <tr>
-                <th>Адрес</th>
-                <td>{{ address }}</td>
-            </tr>
-            <tr>
-                <th>Номер водосчётчика</th>
-                <td>{{ metering_device_number }}</td>
-            </tr>
-            <tr>
-                <th>Дата поверки</th>
-                <td>{{ damage_data|date:"d-m-Y" }}</td>
-            </tr>
-            <tr>
-                <th>Дата окончания поверки</th>
-                <td>{{ verifi_period|date:"d-m-Y" }}</td>
-            </tr>
-        </table>
+        .logo {
+            width: auto;
+            max-height: 220%;
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-right: 380px;
+            font-size: 24px;
+            line-height: 10px;
+        }
+
+        /* Боковые панели */
+        .left-panel, .right-panel {
+            position: fixed;
+            top: 70px;
+            bottom: 60px;
+            width: 140px;
+            background-image: linear-gradient(to bottom, white, blue);
+        }
+
+        .left-panel {
+            left: 0;
+        }
+
+        .right-panel {
+            right: 0;
+        }
+
+        /* Центральная часть */
+        .content {
+            margin: 0px 140px 20px 140px;
+            min-height: calc(100vh - 0px);
+            display: flex;
+            justify-content: center;
+        }
+
+        article {
+            text-align: center;
+        }
+
+        .content-container {
+            margin: 0 auto;
+            width: 600px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .centered-table {
+            margin: 0 auto;
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border: 2px solid #444;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 2px solid #444;
+            background-color: #fff;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background-color: #eaeaea;
+        }
+
+        /* Футер */
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            background-image: linear-gradient(to bottom, white, blue);
+            text-align: center;
+            color: black;
+            font-size: 16px;
+            line-height: 0.8;
+        }
+
+        .footer p {
+            margin-top: 15px;
+        }
+
+        /* Ссылки в левом боковом меню */
+        .links {
+            list-style-type: none;
+            padding: 5px;
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            margin-bottom: 10px;
+            padding: 5px
+        }
+    </style>
+</head>
+<body>
+    <!-- Заголовок -->
+    <div class="header">
+        <img src="https://github.com/Evgeniy-Tsittser/dp_files/blob/main/emblem.jpeg?raw=true" alt="Эмблема" class="logo">
+        <h1 class="page-title">ООО «ГОРВОДОКАНАЛ» г.Черепаново</h1>
     </div>
-{% endblock %}
+
+    <!-- Левая панель -->
+    <aside class="left-panel">
+        <ul class="links">
+            <li><a href="http://127.0.0.1:8000/">Главная</a></li>
+            <li><a href="http://127.0.0.1:8000/about">О предприятии</a></li>
+            <li><a href="http://127.0.0.1:8000/tariffs">Тарифы</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="http://127.0.0.1:8000/quality">Качество воды</a></li>
+        </ul>
+    </aside>
+
+    <!-- Правая панель -->
+    <aside class="right-panel">
+        <a href="http://127.0.0.1:8000/login" style="margin-top: 5px; padding-left: 30px;">ВЫЙТИ</a>
+        <p style="font-size: 14px; margin-top: 10px; padding-left: 10px;">Личный кабинет</p>
+    </aside>
+
+    <!-- Основная часть контента -->
+    <div class="content-container">
+        <h2>{{ greeting }}</h2>
+        <br>
+            <div class="centered-table">
+                <table border="1">
+                    <tr>
+                        <th>Адрес</th>
+                        <td>{{ address }}</td>
+                    </tr>
+                    <tr>
+                        <th>Номер водосчётчика</th>
+                        <td>{{ metering_device_number }}</td>
+                    </tr>
+                    <tr>
+                        <th>Дата поверки</th>
+                        <td>{{ damage_data|date:"d-m-Y" }}</td>
+                    </tr>
+                    <tr>
+                        <th>Дата окончания поверки</th>
+                        <td>{{ verifi_period|date:"d-m-Y" }}</td>
+                    </tr>
+                </table>
+            </div>
+    </div>
+         <footer class="footer">
+            <p>ООО «ГОРВОДОКАНАЛ»</p>
+            <p>633525, Новосибирская область, г.Черепаново, ул.Строителей д.1а, тел.(38345)25-028, (38345)25-027.</p>
+        </footer>
+</body>
+</html>
