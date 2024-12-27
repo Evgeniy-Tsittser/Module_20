@@ -43,7 +43,7 @@
 
 ### 1. Клонируйте репозиторий
 ```bash
-git clone https://github.com/Evgeniy-Tsittser/Diploma_work_Ts.git                                    
+git clone https://github.com/Evgeniy-Tsittser/Module_20.git                                    
 перейдите в директорию проекта cd diplom_project
 ```
 ### 2. Создайте виртуальное окружение и активируйте его
