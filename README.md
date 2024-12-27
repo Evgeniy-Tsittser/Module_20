@@ -130,8 +130,8 @@ python manage.py runserver
 1. Для тестирования функций представления приложения откройте терминал.
 2. Перейдите в директорию проекта cd diplom_project.
 3. Для тестирования представлений общедоступной части приложения, авторизацию и личный кабинет, то необходимо набрать
-в командной строке python manage.py test gvk_site.tests.gvk_site_tests.tests.
+в командной строке: python manage.py test gvk_site.tests.gvk_site_tests.tests.
 4. Для тестирования представлений части приложения с таблицами ремонтных работ, то необходимо набрать в командной
-строке python manage.py test gvk_site.tests.rembaza_tests.test. 
+строке: python manage.py test gvk_site.tests.rembaza_tests.test. 
 ```
 4. Логирование осуществляется через стандартные механизмы Django. Все ошибки записываются в файл django.log
