@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Работы по водоотведению</title>
+    {% load static %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-piKU7xMgZJ+LbZPoy9Ig359igPv/chqm4iBkB6Xf8QlqWW1FGrhxTBAkFlnNG01cH"
+          crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('{% static "Back2.png" %}');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        /* Общие стили для всей таблицы */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        /* Стилизация границ ячеек */
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #000;
+        }
+
+        /* Центрирование текста в ячейках */
+        td {
+            vertical-align: middle;
+        }
+
+        /* Форматирование заголовков таблицы */
+        th {
+            background-color: #eaeaea; /* Светло-серый фон */
+            font-weight: normal;       /* Обычный шрифт без жирного начертания */
+        }
+         h1 {
+            text-align: center;
+        }
+        a {
+        margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="{% url 'years' %}">На страницу выбора года</a>
+  <h1>Годовые работы по водоотведению</h1>
+    <table>
+        <tr>
+            <th>Наименование</th>
+            <th>Январь Объем</th>
+            <th>Январь Сумма</th>
+            <th>Февраль Объем</th>
+            <th>Февраль Сумма</th>
+            <th>Март Объем</th>
+            <th>Март Сумма</th>
+            <th>1 квартал сумма</th>
+            <th>Апрель Объем</th>
+            <th>Апрель Сумма</th>
+            <th>Май Объем</th>
+            <th>Май Сумма</th>
+            <th>Июнь Объем</th>
+            <th>Июнь Сумма</th>
+            <th>2 квартал сумма</th>
+            <th>Июль Объем</th>
+            <th>Июль Сумма</th>
+            <th>Август Объем</th>
+            <th>Август Сумма</th>
+            <th>Сентябрь Объем</th>
+            <th>Сентябрь Сумма</th>
+            <th>3 квартал сумма</th>
+            <th>Октябрь Объем</th>
+            <th>Октябрь Сумма</th>
+            <th>Ноябрь Объем</th>
+            <th>Ноябрь Сумма</th>
+            <th>Декабрь Объем</th>
+            <th>Декабрь Сумма</th>
+            <th>4 квартал сумма</th>
+            <th>Годовой итог</th>
+        </tr>
+        {% for table in severagetables %}
+            <tr>
+                <td>{{ table.completed_works }}</td>
+                <td>{{ table.january_vol }}</td>
+                <td>{{ table.january_summ }}</td>
+                <td>{{ table.february_vol }}</td>
+                <td>{{ table.february_summ }}</td>
+                <td>{{ table.march_vol }}</td>
+                <td>{{ table.march_summ }}</td>
+                <td>{{ table.first_quarter }}</td>
+                <td>{{ table.april_vol }}</td>
+                <td>{{ table.april_summ }}</td>
+                <td>{{ table.may_vol }}</td>
+                <td>{{ table.may_summ }}</td>
+                <td>{{ table.june_vol }}</td>
+                <td>{{ table.june_summ }}</td>
+                <td>{{ table.second_quarter }}</td>
+                <td>{{ table.july_vol }}</td>
+                <td>{{ table.july_summ }}</td>
+                <td>{{ table.august_vol }}</td>
+                <td>{{ table.august_summ }}</td>
+                <td>{{ table.september_vol }}</td>
+                <td>{{ table.september_summ }}</td>
+                <td>{{ table.third_quarter }}</td>
+                <td>{{ table.october_vol }}</td>
+                <td>{{ table.october_summ }}</td>
+                <td>{{ table.november_vol }}</td>
+                <td>{{ table.november_summ }}</td>
+                <td>{{ table.december_vol }}</td>
+                <td>{{ table.december_summ }}</td>
+                <td>{{ table.fourth_quarter }}</td>
+                <td>{{ table.year_total }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

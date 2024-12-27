@@ -151,7 +151,7 @@ from celery.schedules import crontab
 
 CELERY_BEAT_SCHEDULE = {
     'send-verification-reminders-every-day-at-8am': {
-        'task': 'gvk_site.tasks.send_verification_reminders',
+        'task': 'gvk_site_tests.tasks.send_verification_reminders',
         'schedule': crontab(hour=8, minute=0),  # каждый день в 8:00
     },
 }
@@ -180,10 +180,11 @@ LOGGING = {
     },
     'handlers': {
         'file': {
-            'level': 'INFO',
+            'level': 'DEBUG',
             'class': 'logging.FileHandler',
             'filename': 'django.log',
             'formatter': 'verbose',
+            'encoding': 'utf-8'
         },
         'console': {
             'level': 'INFO',
@@ -192,9 +193,9 @@ LOGGING = {
         },
     },
     "loggers": {
-        "django": {
+        "gvk_site": {
             "handlers": ["file"],
-            "level": "INFO",
+            "level": "DEBUG",
             "propagate": True,
         },
     },
